@@ -15,3 +15,7 @@ jobs:
         run: python lesson1.py
       - name: Run lesson2
         run: python lesson2.py
+      - name: Run lesson3
+        run: python lesson3.py
+      - name: Run lesson4
+        run: python lesson4.py
