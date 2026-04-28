@@ -1,7 +1,7 @@
 # Lesson 1 - first Python script
 print("Dmytro")
 print("Senior Project Manager")
-print("I am learning Python to become a Senior Technical PM.")
+print("I am learning Python to become a Technical PM.")
 
 # Lesson 2 & 3 - variables and f-strings
 my_name = "Dmytro"
