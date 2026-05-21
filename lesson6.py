@@ -1,7 +1,5 @@
 # Lesson 6: Dictionaries
 
-
-
 """   Write a script that:
 
 Creates a dictionary for the TEST project with at least 6 fields — name, status, budget, spent, team_size, on_track
@@ -20,9 +18,19 @@ project = {
     "spent": 20000, 
     "team_size": 3, 
     "on_track": True    
-}, 
+} 
 
-print(project["name"])
+
+print(project["name"]) 
 print(project["status"])
 
 project["status"] = "Delayed"
+
+project["risk"] = "High"
+
+for key, value in project.items():
+    print(f"  {key}: {value}")
+
+budget_remaining = project["budget"] - project["spent"]
+print(f"Budget remaining: ${budget_remaining}")
+
